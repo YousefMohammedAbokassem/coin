@@ -1,0 +1,53 @@
+// @import url("./_var.scss");
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@import "./var";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+// scroll top
+// .scroll {
+//   background-color: var(--clr-product);
+//   height: 4px;
+//   position: fixed;
+//   top: 0;
+//   z-index: 10000000;
+//   left: 0;
+//   width: 10px;
+//   min-width: 10px;
+//   &.ar {
+//     left: auto;
+//     right: 0;
+//   }
+// }
+.signUp {
+  .image {
+    img {
+    }
+  }
+  .FormAccount {
+    .createAn {
+    }
+  }
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+// .selected-flag{
+//   background-color: transparent;
+//   &:hover{
+//     background-color: transparent !important;
+//   }
+// }
+.custom-dropdown {
+  transition: background-color 0.3s ease;
+}
+
+.custom-dropdown:hover {
+  background-color: red !important; /* لتغيير الخلفية إلى اللون الأحمر */
+}
+.FormAccount{}
